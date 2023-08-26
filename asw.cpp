@@ -39,6 +39,7 @@ void replacePi(char input[])
 
 int main(){
 	char input[1000];
+	cout<<" Enter a string with Pi added to change it to pi in lowecase"<<endl; 
 	cin.getline(input,1000);  
 	replacePi(input); 
 	
